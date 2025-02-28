@@ -14,15 +14,15 @@ function calculateBmi(){
     const bmi = (weight / ((height / 100) * (height / 100) )).toFixed(2);
     
     if (bmi < 18.5){
-        result.innerText = `Under Weight: ${bmi}`;
+        result.innerText = `Result : Under Weight: ${bmi}`;
     }else if(bmi >= 18.5 && bmi <= 24.9){
-        result.innerText = `Normal: ${bmi}`;
+        result.innerText = `Result : Normal: ${bmi}`;
     }else if (bmi >= 25 && bmi <= 29.9){
-        result.innerText = `Overweight: ${bmi}`;
+        result.innerText = `Result : Overweight: ${bmi}`;
     }else if (bmi >= 30 && bmi <= 34.9){
-        result.innerText = `Obese: ${bmi}`;
+        result.innerText = `Result : Obese: ${bmi}`;
     }else {
-        result.innerText = `Extremely Obese: ${bmi}`;
+        result.innerText = `Result : Extremely Obese: ${bmi}`;
     }
 
 }
