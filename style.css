@@ -1,8 +1,6 @@
 body{
     display: flex;
-    justify-content: center;
-    
-    
+    justify-content: center; 
 }
 
 .container{
@@ -14,6 +12,7 @@ body{
     border-radius: 20px;
     background-color: palegoldenrod;
 }
+
 h1{
     margin-bottom: 50px;
 }

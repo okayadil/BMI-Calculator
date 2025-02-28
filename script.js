@@ -1,8 +1,3 @@
-window.onload = () => {
-    const button = document.getElementById("btn");
-    button.addEventListener('click', calculateBmi);
-}
-
 function calculateBmi(){
     const height = document.getElementById("height").value;
     const weight = document.getElementById("weight").value;
@@ -31,3 +26,6 @@ function calculateBmi(){
     }
 
 }
+
+const button = document.getElementById("btn");
+button.addEventListener('click', calculateBmi);
