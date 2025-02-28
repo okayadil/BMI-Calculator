@@ -28,7 +28,6 @@ input{
     width: 50%;
     height: 25px;
     text-align: center;
-
 }
 
 #btn{
@@ -42,6 +41,7 @@ input{
     font-size: 20px;
     cursor: pointer;
     transition: 0.3s;
+    cursor: pointer;
     
 }
 
